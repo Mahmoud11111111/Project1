@@ -7,3 +7,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+.game-container {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(140, 15, 15);
+    margin: auto;
+    border: 5px solid black;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.character {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 400px;
+    left: 120px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 1000;
+}
+
+body{
+    background-color: aqua;
+}
