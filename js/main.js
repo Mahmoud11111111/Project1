@@ -2,6 +2,8 @@ const game = document.querySelector(".game-container")
 const char = document.querySelector(".character")
 let interval;
 let keyDown = false;
+let displayScore = document.querySelector(".score")
+let score = 0;
 
 // Ball Movement
 const moveLeft = () => {
@@ -99,3 +101,10 @@ function holeCollision(h, b) {
         h_top + 20 > b_top && h_top < b_top + 20
     );
 }
+
+//Score
+function showScore() {
+    score++;
+    displayScore.innerText = score;
+}
+setInterval(showScore, 100);

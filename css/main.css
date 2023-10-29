@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
@@ -13,7 +12,7 @@
 .game-container {
     width: 400px;
     height: 500px;
-    background-color: rgba(255, 234, 101,0.926);
+    background-color: rgba(255, 234, 101, 0.926);
     margin: auto;
     border: 5px solid black;
     position: relative;
@@ -43,7 +42,7 @@
 .hole {
     width: 70px;
     height: 20px;
-    background-color:  rgb(255, 234, 101);
+    background-color: rgb(255, 234, 101);
     position: absolute;
     animation: moveDown 5s linear forwards;
 }
@@ -59,8 +58,15 @@
         visibility: hidden;
     }
 }
-body{
+
+body {
     background-image: url(../images/dd.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h2 {
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
 }
