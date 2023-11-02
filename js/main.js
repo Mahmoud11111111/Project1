@@ -108,3 +108,6 @@ function showScore() {
     displayScore.innerText = score;
 }
 setInterval(showScore, 100);
+
+let tt = document.querySelector(".finalScore")
+    tt.innerHTML =score;
